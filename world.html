@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade Registration System</title>
+    
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Grade Registration</h2>
+        <form>
+            <div class="error" id="error"></div>
+            
+            <input type="text" id="studentName" placeholder="Your Name">
+            <input type="text" id="courseName" placeholder="Course Name">
+            <input type="number" id="grade1" placeholder="Grade for First Exam">
+            <input type="number" id="grade2" placeholder="Grade for Second Exam">
+            
+            <button type="button" onclick="calculateGPA()">Calculate GPA</button>
+            
+            <div class="result">
+                <div id="studentNameOutput"></div>
+                <div id="courseNameOutput"></div>
+                <div id="totalGrade"></div>
+                <div id="overallGPA"></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>     
